@@ -148,16 +148,8 @@
       height: 120px;
       border-radius: 26px;
       flex-shrink: 0;
-      background: linear-gradient(135deg, #6366F1, #8B5CF6);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 4px 16px rgba(99, 102, 241, 0.3);
-    }
-
-    .app-icon svg {
-      width: 56px;
-      height: 56px;
+      object-fit: cover;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
     }
 
     .app-info {
@@ -328,9 +320,7 @@
     <!-- ポめも -->
     <div class="app-card">
       <div class="app-card-inner">
-        <div class="app-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><path d="M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2"/><path d="M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2"/><path d="m9 14 2 2 4-4"/></svg>
-        </div>
+        <img class="app-icon" src="images/pomemo-icon.png" alt="ポめも アイコン">
         <div class="app-info">
           <h3 class="app-name">ポめも</h3>
           <p class="app-tagline">ポイ活案件管理サポート</p>
