@@ -2,10 +2,372 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hajime App Lab</title>
+  <meta name="description" content="Hajime App Lab - 日常をちょっと便利にするアプリを開発しています">
+  <meta property="og:title" content="Hajime App Lab">
+  <meta property="og:description" content="日常をちょっと便利にするアプリを開発しています">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hajimeapplab.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --primary: #4F46E5;
+      --primary-light: #818CF8;
+      --bg: #F9FAFB;
+      --surface: #FFFFFF;
+      --text: #111827;
+      --text-secondary: #6B7280;
+      --border: #E5E7EB;
+      --radius: 16px;
+    }
+
+    body {
+      font-family: 'Noto Sans JP', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ===== Header ===== */
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .header-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .nav-link {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      transition: color 0.2s;
+    }
+
+    .nav-link:hover {
+      color: var(--primary);
+    }
+
+    /* ===== Hero ===== */
+    .hero {
+      padding: 160px 24px 80px;
+      text-align: center;
+      background: linear-gradient(180deg, #EEF2FF 0%, var(--bg) 100%);
+    }
+
+    .hero h1 {
+      font-size: clamp(32px, 5vw, 48px);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+    }
+
+    .hero p {
+      font-size: clamp(16px, 2.5vw, 20px);
+      color: var(--text-secondary);
+      max-width: 560px;
+      margin: 0 auto;
+    }
+
+    /* ===== Apps Section ===== */
+    .section {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 64px 24px;
+    }
+
+    .section-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+    }
+
+    .section-heading {
+      font-size: clamp(24px, 3.5vw, 32px);
+      font-weight: 700;
+      margin-bottom: 48px;
+    }
+
+    /* ===== App Card ===== */
+    .app-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      transition: box-shadow 0.3s, transform 0.3s;
+    }
+
+    .app-card:hover {
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+      transform: translateY(-2px);
+    }
+
+    .app-card-inner {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      padding: 40px;
+    }
+
+    .app-icon {
+      width: 120px;
+      height: 120px;
+      border-radius: 26px;
+      flex-shrink: 0;
+      object-fit: cover;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    }
+
+    .app-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .app-name {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .app-tagline {
+      font-size: 14px;
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+    }
+
+    .app-description {
+      font-size: 15px;
+      color: var(--text-secondary);
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+
+    .app-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      background: #EEF2FF;
+      color: var(--primary);
+      font-size: 12px;
+      font-weight: 600;
+      border-radius: 999px;
+    }
+
+    .store-badge {
+      display: inline-block;
+      transition: opacity 0.2s;
+    }
+
+    .store-badge:hover {
+      opacity: 0.8;
+    }
+
+    .store-badge img {
+      height: 44px;
+    }
+
+    /* ===== Features ===== */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      padding: 0 40px 40px;
+    }
+
+    .feature {
+      text-align: center;
+      padding: 24px;
+    }
+
+    .feature-icon {
+      width: 48px;
+      height: 48px;
+      background: #EEF2FF;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 12px;
+    }
+
+    .feature-icon svg {
+      width: 24px;
+      height: 24px;
+      stroke: var(--primary);
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .feature h3 {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .feature p {
+      font-size: 13px;
+      color: var(--text-secondary);
+    }
+
+    /* ===== Footer ===== */
+    .footer {
+      border-top: 1px solid var(--border);
+      padding: 40px 24px;
+      text-align: center;
+    }
+
+    .footer p {
+      font-size: 13px;
+      color: var(--text-secondary);
+    }
+
+    .footer a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 640px) {
+      .app-card-inner {
+        flex-direction: column;
+        text-align: center;
+        padding: 32px 24px;
+        gap: 20px;
+      }
+
+      .app-badges {
+        justify-content: center;
+      }
+
+      .store-badge {
+        display: flex;
+        justify-content: center;
+      }
+
+      .features {
+        padding: 0 24px 32px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>Hajime App Lab</h1>
-  <p>モバイルアプリの開発・提供を行っています。</p>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="/" class="logo">Hajime App Lab</a>
+      <a href="#apps" class="nav-link">Apps</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Hajime App Lab</h1>
+    <p>日常をちょっと便利にするアプリを開発しています</p>
+  </section>
+
+  <!-- Apps -->
+  <section class="section" id="apps">
+    <p class="section-title">Apps</p>
+    <h2 class="section-heading">リリース中のアプリ</h2>
+
+    <!-- ポめも -->
+    <div class="app-card">
+      <div class="app-card-inner">
+        <img class="app-icon" src="images/pomemo-icon.png" alt="ポめも アイコン">
+        <div class="app-info">
+          <h3 class="app-name">ポめも</h3>
+          <p class="app-tagline">ポイ活案件管理サポート</p>
+          <p class="app-description">ポイ活の案件を効率よく管理できるサポートアプリ。案件の進捗管理や期限の把握をシンプルに、もっと賢くポイントを貯めよう。</p>
+          <div class="app-badges">
+            <span class="badge">ポイ活</span>
+            <span class="badge">案件管理</span>
+            <span class="badge">無料</span>
+          </div>
+          <a class="store-badge" href="https://apps.apple.com/jp/app/id6759794874" target="_blank" rel="noopener noreferrer">
+            <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83" alt="App Storeからダウンロード">
+          </a>
+        </div>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><path d="m9 14 2 2 4-4"/></svg>
+          </div>
+          <h3>案件をかんたん管理</h3>
+          <p>ポイ活案件の登録・進捗管理をシンプルな操作で</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <h3>期限をしっかり把握</h3>
+          <p>案件の期限を見える化して取りこぼしを防止</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <h3>効率よくポイント獲得</h3>
+          <p>管理をスマートにして獲得ポイントを最大化</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 今後のアプリはここに追加 -->
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Hajime App Lab. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
