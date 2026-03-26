@@ -251,6 +251,57 @@
       color: var(--text-secondary);
     }
 
+    /* ===== About Section ===== */
+    .about-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 32px;
+    }
+
+    .about-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 32px;
+    }
+
+    .about-card h3 {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .about-card h3 svg {
+      width: 20px;
+      height: 20px;
+      stroke: var(--primary);
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      flex-shrink: 0;
+    }
+
+    .about-card p,
+    .about-card address {
+      font-size: 14px;
+      color: var(--text-secondary);
+      font-style: normal;
+      line-height: 1.8;
+    }
+
+    .about-card a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .about-card a:hover {
+      text-decoration: underline;
+    }
+
     /* ===== Footer ===== */
     .footer {
       border-top: 1px solid var(--border);
@@ -302,7 +353,10 @@
   <header class="header">
     <div class="header-inner">
       <a href="/" class="logo">Hajime App Lab</a>
-      <a href="#apps" class="nav-link">Apps</a>
+      <nav style="display:flex;gap:24px;">
+        <a href="#apps" class="nav-link">Apps</a>
+        <a href="#about" class="nav-link">About</a>
+      </nav>
     </div>
   </header>
 
@@ -336,6 +390,7 @@
           <a class="store-badge" href="https://play.google.com/store/apps/details?id=io.github.hajimeapp.pomemo&hl=ja" target="_blank" rel="noopener noreferrer">
             <img src="https://play.google.com/intl/en_us/badges/static/images/badges/ja_badge_web_generic.png" alt="Google Playで手に入れよう" style="height: 44px;">
           </a>
+          <p style="margin-top: 12px; font-size: 12px;"><a href="apps/pomemo/privacy.html" style="color: var(--text-secondary); text-decoration: none;">プライバシーポリシー</a></p>
         </div>
       </div>
       <div class="features">
@@ -365,6 +420,65 @@
 
     <!-- 今後のアプリはここに追加 -->
 
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about" style="border-top: 1px solid var(--border);">
+    <p class="section-title">About</p>
+    <h2 class="section-heading">運営者情報</h2>
+
+    <div class="about-grid">
+      <!-- 運営者 -->
+      <div class="about-card">
+        <h3>
+          <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          運営者
+        </h3>
+        <p><strong>Hajime App Lab（ハジメアップラボ）</strong></p>
+        <p style="margin-top: 4px; font-size: 13px; color: var(--text-secondary);">設立: 2026年3月</p>
+        <p style="margin-top: 8px;">日常をちょっと便利にするモバイルアプリを企画・開発・運営しています。ユーザーの皆さまに安心してご利用いただけるアプリづくりを目指しています。</p>
+      </div>
+
+      <!-- 事業内容 -->
+      <div class="about-card">
+        <h3>
+          <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          事業内容
+        </h3>
+        <p>モバイルアプリケーションの企画・開発・運営</p>
+        <ul style="margin-top: 12px; padding-left: 20px; font-size: 14px; color: var(--text-secondary); line-height: 2;">
+          <li>iOS / Android アプリの設計・開発</li>
+          <li>アプリの運用・保守・アップデート</li>
+          <li>ユーザーサポート</li>
+        </ul>
+      </div>
+
+      <!-- 所在地 -->
+      <div class="about-card">
+        <h3>
+          <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          所在地
+        </h3>
+        <address>
+          〒150-0041<br>
+          東京都渋谷区神南１丁目１１−４<br>
+          ＦＰＧリンクス神南 5階
+        </address>
+      </div>
+
+      <!-- お問い合わせ -->
+      <div class="about-card">
+        <h3>
+          <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          お問い合わせ
+        </h3>
+        <p>アプリに関するご質問・不具合報告・ご要望など、お気軽にお問い合わせください。</p>
+        <p style="margin-top: 12px;">
+          <a href="mailto:info@hajimeapplab.com">info@hajimeapplab.com</a>
+        </p>
+      </div>
+
+    </div>
   </section>
 
   <!-- Footer -->
