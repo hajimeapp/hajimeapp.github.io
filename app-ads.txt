@@ -1,5 +1,6 @@
 google.com, pub-2100739341326533, DIRECT, f08c47fec0942fa0
 facebook.com, 988187273715631, DIRECT, c3e20eee3f780d68
+vungle.com, 6a01a41788a322f2159ddfaf, DIRECT, c107d686becd2d77
 vungle.com,6a01a41788a322f2159ddfaf,DIRECT,c107d686becd2d77
 33across.com,001Pg0000197KcKIAU,RESELLER,bbea06d9c4d2853c
 contextweb.com,562852,RESELLER,89ff185a4c4e857c
