@@ -1,0 +1,283 @@
+{
+  "version": 1,
+  "updated": "2026-07-17",
+  "apps": [
+    {
+      "id": "wh1kyu",
+      "name": "世界遺産検定1級 一問一答",
+      "description": "一問一答で世界遺産検定1級対策",
+      "series": "world_heritage",
+      "seriesLabel": "世界遺産検定",
+      "appStoreId": "6774595591",
+      "androidPackage": "com.hajimeapplab.worldheritagequiz1kyu",
+      "sort": 10,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/f3/8e/07f38e2a-e53f-70bf-24a7-7d23a7ffbf55/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "whjun1kyu",
+      "name": "世界遺産検定準1級 一問一答",
+      "description": "一問一答で世界遺産検定準1級対策",
+      "series": "world_heritage",
+      "seriesLabel": "世界遺産検定",
+      "appStoreId": "6782517074",
+      "androidPackage": "com.hajimeapplab.worldheritagequizjun1kyu",
+      "sort": 20,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/e5/9e/26e59e2a-00f6-5e30-65ce-531fe6ffb480/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "wh2kyu",
+      "name": "世界遺産検定2級 一問一答",
+      "description": "一問一答で世界遺産検定2級対策",
+      "series": "world_heritage",
+      "seriesLabel": "世界遺産検定",
+      "appStoreId": "6773798008",
+      "androidPackage": "com.hajimeapplab.worldheritagequiz2kyu",
+      "sort": 30,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/9b/c1/3f9bc130-dbee-3b65-e907-e6c2d373462f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "wh3kyu",
+      "name": "世界遺産検定3級 一問一答",
+      "description": "一問一答で世界遺産検定3級対策",
+      "series": "world_heritage",
+      "seriesLabel": "世界遺産検定",
+      "appStoreId": "6767996829",
+      "androidPackage": "com.hajimeapplab.worldheritagequiz3kyu",
+      "sort": 40,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ad/19/4e/ad194e16-0ee9-ab7a-57a8-477c9eb0c544/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "wh4kyu",
+      "name": "世界遺産検定4級 一問一答",
+      "description": "一問一答で世界遺産検定4級対策",
+      "series": "world_heritage",
+      "seriesLabel": "世界遺産検定",
+      "appStoreId": "6761586097",
+      "androidPackage": "io.github.hajimeapp.worldheritagequiz",
+      "sort": 50,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/93/fb/5893fb39-b58e-9dd4-8629-e125030f29af/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "hisho1kyu",
+      "name": "秘書検定1級 一問一答",
+      "description": "一問一答で秘書検定1級対策",
+      "series": "hisho",
+      "seriesLabel": "秘書検定",
+      "appStoreId": "6779851697",
+      "androidPackage": "com.hajimeapplab.hisho1kyu",
+      "sort": 60,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/7a/6d/437a6d09-6c1c-d157-e51b-9ff31916b42a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "hisho2kyu",
+      "name": "秘書検定2級 一問一答",
+      "description": "一問一答で秘書検定2級対策",
+      "series": "hisho",
+      "seriesLabel": "秘書検定",
+      "appStoreId": "6779189503",
+      "androidPackage": "com.hajimeapplab.hisho2kyu",
+      "sort": 70,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/2e/06/3f2e0683-faba-c3c2-ffa6-6b1e2c340943/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "hisho3kyu",
+      "name": "秘書検定3級 一問一答",
+      "description": "一問一答で秘書検定3級対策",
+      "series": "hisho",
+      "seriesLabel": "秘書検定",
+      "appStoreId": "6778831052",
+      "androidPackage": "com.hajimeapplab.hisho3kyu",
+      "sort": 80,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/11/35/5b113563-6231-e2df-6c30-9e648cdb7f3c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "jokaku2kyu",
+      "name": "日本城郭検定2級 一問一答",
+      "description": "一問一答で日本城郭検定2級対策",
+      "appStoreId": "6784968471",
+      "androidPackage": "com.hajimeapplab.jokaku2kyu",
+      "sort": 90,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/8b/c0/278bc0de-6104-e37b-f3f4-f60073b3c71d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "kyoryu",
+      "name": "恐竜学検定初級 一問一答",
+      "description": "一問一答で恐竜学検定初級対策",
+      "appStoreId": "6784962687",
+      "androidPackage": "com.hajimeapplab.kyoryugakushokyu",
+      "sort": 100,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/1c/a6/901ca6e0-3d87-ed61-dc2a-d2f1404ce4f9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "tenmon1kyu",
+      "name": "天文宇宙検定1級 一問一答",
+      "description": "一問一答で天文宇宙検定1級対策",
+      "appStoreId": "6784950185",
+      "androidPackage": "com.hajimeapplab.tenmon1kyu",
+      "sort": 110,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/c2/42/15c2429f-368a-2a99-fa15-27c645d31a3f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "peteiyo",
+      "name": "ペット栄養管理士 一問一答",
+      "description": "一問一答でペット栄養管理士試験対策",
+      "appStoreId": "6783182010",
+      "androidPackage": "com.hajimeapplab.peteiyokanrishi",
+      "sort": 120,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/52/2b/9d522b1e-a101-907e-5fa1-121ecea96819/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "rekiken1kyu",
+      "name": "歴史能力検定1級(日本史) 一問一答",
+      "description": "一問一答で歴検1級(日本史)対策",
+      "appStoreId": "6782520418",
+      "androidPackage": "com.hajimeapplab.rekikennihon1kyu",
+      "sort": 130,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2f/b4/77/2fb477d0-d988-5e95-b110-9f8ce08b9fe9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "aroma2kyu",
+      "name": "アロマテラピー検定2級 一問一答",
+      "description": "一問一答でアロマテラピー検定2級対策",
+      "appStoreId": "6781719186",
+      "androidPackage": "com.hajimeapplab.aroma2kyu",
+      "sort": 140,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/a3/d4/80a3d439-496d-05ae-0e23-eb0d40b279d1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "seika",
+      "name": "製菓衛生師 一問一答",
+      "description": "一問一答で製菓衛生師試験対策",
+      "appStoreId": "6781716945",
+      "androidPackage": "com.hajimeapplab.seikaeiseishi",
+      "sort": 150,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/3d/9c/063d9c97-d520-128a-d2fb-1054e1ec3436/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "hanbaishi2kyu",
+      "name": "販売士2級 一問一答",
+      "description": "一問一答でリテールマーケティング検定対策",
+      "appStoreId": "6781713997",
+      "androidPackage": "com.hajimeapplab.hanbaishi2kyu",
+      "sort": 160,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/c7/ae/4fc7ae74-6a39-de43-86cd-20cbff8841c8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "kanken5kyu",
+      "name": "漢字検定5級 一問一答",
+      "description": "一問一答で漢検5級対策",
+      "appStoreId": "6781323470",
+      "androidPackage": "com.hajimeapplab.kanken5kyu",
+      "sort": 170,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1e/1c/6e/1e1c6e40-5b5a-c234-650e-fcea8b8354f1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "nihongo3kyu",
+      "name": "日本語検定3級 一問一答",
+      "description": "一問一答で日本語検定3級対策",
+      "appStoreId": "6781310179",
+      "androidPackage": "com.hajimeapplab.nihongokentei3",
+      "sort": 180,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0d/2a/19/0d2a1913-c15b-2430-f849-f4c1fe0ebe7c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "shobootsu6",
+      "name": "消防設備士乙6類 一問一答",
+      "description": "一問一答で消防設備士乙種第6類対策",
+      "appStoreId": "6781278935",
+      "androidPackage": "com.hajimeapplab.shobootsu6",
+      "sort": 190,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/97/0c/5f970c75-ee04-eb45-b456-dfb001300dd3/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "bizkaikei3kyu",
+      "name": "ビジネス会計検定3級 一問一答",
+      "description": "一問一答でビジネス会計検定3級対策",
+      "appStoreId": "6780249581",
+      "androidPackage": "com.hajimeapplab.bizkaikei3kyu",
+      "sort": 200,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/68/18/886818bd-b598-f722-397d-72afd2f7e9b5/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "seiseiai",
+      "name": "生成AIパスポート 一問一答",
+      "description": "一問一答で生成AIパスポート試験対策",
+      "appStoreId": "6780231436",
+      "androidPackage": "com.hajimeapplab.seiseiaipassport",
+      "sort": 210,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/94/9a/96949a13-69ec-1293-421c-19f13c1c3932/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "hakko",
+      "name": "発酵検定 一問一答",
+      "description": "一問一答で発酵検定対策",
+      "appStoreId": "6779922874",
+      "androidPackage": "com.hajimeapplab.hakkokentei",
+      "sort": 220,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/4c/94/d84c94df-6f9a-71ed-0879-d0ec86c6698b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "itpassport",
+      "name": "ITパスポート 過去問",
+      "description": "過去問でITパスポート試験対策",
+      "appStoreId": "6776047396",
+      "androidPackage": "com.hajimeapplab.itpassportquiz",
+      "sort": 230,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/98/fd/8f98fd6a-c53c-d579-3dd1-025c9d375045/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "bungaku",
+      "name": "日本文学史 一問一答",
+      "description": "高校・大学受験の日本文学史対策",
+      "appStoreId": "6463722741",
+      "androidPackage": "com.gmail.trackandfield.sk.Quiz",
+      "sort": 240,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/dc/2f/cadc2fe4-4ec5-eb06-30a1-14b22881a58a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "sekaishinengo",
+      "name": "世界史年号 一問一答",
+      "description": "高校・大学受験の世界史年号対策",
+      "appStoreId": "6760818433",
+      "androidPackage": "io.github.hajimeapp.worldhistorydates",
+      "sort": 250,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/d9/c7/78d9c7cc-be59-a016-ac8b-04b030d11439/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "chokinmemo",
+      "name": "貯金メモ",
+      "description": "目標別に貯金を記録できる日記貯金アプリ",
+      "appStoreId": "6762539337",
+      "androidPackage": "com.hajimeapplab.savingmemo",
+      "sort": 260,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/d3/37/00d33757-9d7b-c88d-29ca-2e48c8a2f140/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "shokuhi",
+      "name": "食費管理",
+      "description": "食費専用のシンプル家計簿",
+      "appStoreId": "6762207977",
+      "androidPackage": "com.hajimeapplab.food.expense.management",
+      "sort": 270,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/85/8f/d8858f94-6fc7-5940-bf7f-5442348fdf20/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "oshikatsuchokin",
+      "name": "推し活貯金",
+      "description": "推し活のための貯金管理アプリ",
+      "appStoreId": "6761586458",
+      "androidPackage": "com.hajimeapplab.oshikatsu.savings",
+      "sort": 280,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/9a/78/089a781c-994f-ab3f-5305-2e40f5e56494/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "pomemo",
+      "name": "ポめも",
+      "description": "ポイ活案件の管理メモアプリ",
+      "appStoreId": "6759794874",
+      "androidPackage": "io.github.hajimeapp.pomemo",
+      "sort": 290,
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/1e/3d/0c1e3d33-ab55-9c26-d71a-371decd098f8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    }
+  ]
+}
