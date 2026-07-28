@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-17",
+  "updated": "2026-07-28",
   "apps": [
     {
       "id": "wh1kyu",
@@ -157,6 +157,8 @@
       "id": "hanbaishi2kyu",
       "name": "販売士2級 一問一答",
       "description": "一問一答でリテールマーケティング検定対策",
+      "series": "hanbaishi",
+      "seriesLabel": "販売士検定",
       "appStoreId": "6781713997",
       "androidPackage": "com.hajimeapplab.hanbaishi2kyu",
       "sort": 160,
