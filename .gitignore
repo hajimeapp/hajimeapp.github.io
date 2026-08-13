@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# JetBrains IDE
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Node（tools/ のスクリプト用）
+node_modules/
