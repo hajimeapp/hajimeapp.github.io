@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ねこ、積んじゃった。 - ダウンロード</title>
+  <meta name="description" content="ネコを積み上げる物理パズル「ねこ、積んじゃった。」。iPhone / Android で遊べます。">
+  <meta property="og:title" content="ねこ、積んじゃった。">
+  <meta property="og:description" content="ネコを積み上げる物理パズル。きみは何匹つめる？">
+  <meta property="og:type" content="website">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 48px 24px;
+      line-height: 1.8;
+      color: #333;
+      background: #fafafa;
+      text-align: center;
+    }
+    h1 { font-size: 1.5em; color: #6750A4; }
+    p { color: #666; }
+    .store {
+      display: block;
+      margin: 16px auto;
+      padding: 14px 24px;
+      border-radius: 999px;
+      background: #6750A4;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .store:active { opacity: 0.8; }
+    .note { font-size: 0.85em; color: #888; margin-top: 2em; }
+  </style>
+</head>
+<body>
+
+<h1 data-ja="ねこ、積んじゃった。" data-en="Oops! Cat Stack">ねこ、積んじゃった。</h1>
+<p data-ja="ネコを積み上げる物理パズル。きみは何匹つめる？" data-en="A physics puzzle about stacking cats. How high can you go?">ネコを積み上げる物理パズル。きみは何匹つめる？</p>
+
+<a class="store" id="ios" href="https://apps.apple.com/app/id6810301298">App Store (iPhone / iPad)</a>
+<a class="store" id="android" href="https://play.google.com/store/apps/details?id=com.hajimeapplab.nekotsumi">Google Play (Android)</a>
+
+<p class="note" data-ja="お使いの端末のストアへ自動で移動します。移動しない場合は上のボタンから。" data-en="You will be redirected to your device's store. If not, use the buttons above.">お使いの端末のストアへ自動で移動します。移動しない場合は上のボタンから。</p>
+
+<script>
+  (function () {
+    var ua = navigator.userAgent;
+    // iPadOS 13 以降は Macintosh を名乗るので、タッチの有無で見分ける
+    var isIOS = /iPhone|iPad|iPod/.test(ua) ||
+      (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+    var isAndroid = /Android/.test(ua);
+
+    if (!/^ja\b/.test(navigator.language || '')) {
+      document.documentElement.lang = 'en';
+      document.title = 'Oops! Cat Stack - Download';
+      var nodes = document.querySelectorAll('[data-en]');
+      for (var i = 0; i < nodes.length; i++) nodes[i].textContent = nodes[i].dataset.en;
+    }
+
+    // 履歴を置き換える。戻るボタンでこのページに戻って再び飛ばされるのを防ぐ
+    if (isIOS) location.replace(document.getElementById('ios').href);
+    else if (isAndroid) location.replace(document.getElementById('android').href);
+  })();
+</script>
+
+</body>
+</html>
