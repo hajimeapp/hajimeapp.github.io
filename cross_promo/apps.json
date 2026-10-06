@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-28",
+  "updated": "2026-10-06",
   "apps": [
     {
       "id": "wh1kyu",
@@ -11,7 +11,7 @@
       "appStoreId": "6774595591",
       "androidPackage": "com.hajimeapplab.worldheritagequiz1kyu",
       "sort": 10,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/f3/8e/07f38e2a-e53f-70bf-24a7-7d23a7ffbf55/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/wh1kyu.png"
     },
     {
       "id": "whjun1kyu",
@@ -22,7 +22,7 @@
       "appStoreId": "6782517074",
       "androidPackage": "com.hajimeapplab.worldheritagequizjun1kyu",
       "sort": 20,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/e5/9e/26e59e2a-00f6-5e30-65ce-531fe6ffb480/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/whjun1kyu.png"
     },
     {
       "id": "wh2kyu",
@@ -33,7 +33,7 @@
       "appStoreId": "6773798008",
       "androidPackage": "com.hajimeapplab.worldheritagequiz2kyu",
       "sort": 30,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/9b/c1/3f9bc130-dbee-3b65-e907-e6c2d373462f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/wh2kyu.png"
     },
     {
       "id": "wh3kyu",
@@ -44,7 +44,7 @@
       "appStoreId": "6767996829",
       "androidPackage": "com.hajimeapplab.worldheritagequiz3kyu",
       "sort": 40,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ad/19/4e/ad194e16-0ee9-ab7a-57a8-477c9eb0c544/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/wh3kyu.png"
     },
     {
       "id": "wh4kyu",
@@ -55,7 +55,7 @@
       "appStoreId": "6761586097",
       "androidPackage": "io.github.hajimeapp.worldheritagequiz",
       "sort": 50,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/93/fb/5893fb39-b58e-9dd4-8629-e125030f29af/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/wh4kyu.png"
     },
     {
       "id": "hisho1kyu",
@@ -66,7 +66,7 @@
       "appStoreId": "6779851697",
       "androidPackage": "com.hajimeapplab.hisho1kyu",
       "sort": 60,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/7a/6d/437a6d09-6c1c-d157-e51b-9ff31916b42a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/hisho1kyu.png"
     },
     {
       "id": "hisho2kyu",
@@ -77,7 +77,7 @@
       "appStoreId": "6779189503",
       "androidPackage": "com.hajimeapplab.hisho2kyu",
       "sort": 70,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/2e/06/3f2e0683-faba-c3c2-ffa6-6b1e2c340943/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/hisho2kyu.png"
     },
     {
       "id": "hisho3kyu",
@@ -88,7 +88,7 @@
       "appStoreId": "6778831052",
       "androidPackage": "com.hajimeapplab.hisho3kyu",
       "sort": 80,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/11/35/5b113563-6231-e2df-6c30-9e648cdb7f3c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/hisho3kyu.png"
     },
     {
       "id": "jokaku2kyu",
@@ -97,7 +97,7 @@
       "appStoreId": "6784968471",
       "androidPackage": "com.hajimeapplab.jokaku2kyu",
       "sort": 90,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/8b/c0/278bc0de-6104-e37b-f3f4-f60073b3c71d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/jokaku2kyu.png"
     },
     {
       "id": "kyoryu",
@@ -106,7 +106,7 @@
       "appStoreId": "6784962687",
       "androidPackage": "com.hajimeapplab.kyoryugakushokyu",
       "sort": 100,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/1c/a6/901ca6e0-3d87-ed61-dc2a-d2f1404ce4f9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/kyoryu.png"
     },
     {
       "id": "tenmon1kyu",
@@ -115,7 +115,7 @@
       "appStoreId": "6784950185",
       "androidPackage": "com.hajimeapplab.tenmon1kyu",
       "sort": 110,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/c2/42/15c2429f-368a-2a99-fa15-27c645d31a3f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/tenmon1kyu.png"
     },
     {
       "id": "peteiyo",
@@ -124,7 +124,7 @@
       "appStoreId": "6783182010",
       "androidPackage": "com.hajimeapplab.peteiyokanrishi",
       "sort": 120,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/52/2b/9d522b1e-a101-907e-5fa1-121ecea96819/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/peteiyo.png"
     },
     {
       "id": "rekiken1kyu",
@@ -133,7 +133,7 @@
       "appStoreId": "6782520418",
       "androidPackage": "com.hajimeapplab.rekikennihon1kyu",
       "sort": 130,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2f/b4/77/2fb477d0-d988-5e95-b110-9f8ce08b9fe9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/rekiken1kyu.png"
     },
     {
       "id": "aroma2kyu",
@@ -142,7 +142,7 @@
       "appStoreId": "6781719186",
       "androidPackage": "com.hajimeapplab.aroma2kyu",
       "sort": 140,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/a3/d4/80a3d439-496d-05ae-0e23-eb0d40b279d1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/aroma2kyu.png"
     },
     {
       "id": "seika",
@@ -151,7 +151,7 @@
       "appStoreId": "6781716945",
       "androidPackage": "com.hajimeapplab.seikaeiseishi",
       "sort": 150,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/3d/9c/063d9c97-d520-128a-d2fb-1054e1ec3436/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/seika.png"
     },
     {
       "id": "hanbaishi2kyu",
@@ -162,7 +162,7 @@
       "appStoreId": "6781713997",
       "androidPackage": "com.hajimeapplab.hanbaishi2kyu",
       "sort": 160,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/c7/ae/4fc7ae74-6a39-de43-86cd-20cbff8841c8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/hanbaishi2kyu.png"
     },
     {
       "id": "kanken5kyu",
@@ -171,7 +171,7 @@
       "appStoreId": "6781323470",
       "androidPackage": "com.hajimeapplab.kanken5kyu",
       "sort": 170,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1e/1c/6e/1e1c6e40-5b5a-c234-650e-fcea8b8354f1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/kanken5kyu.png"
     },
     {
       "id": "nihongo3kyu",
@@ -180,7 +180,7 @@
       "appStoreId": "6781310179",
       "androidPackage": "com.hajimeapplab.nihongokentei3",
       "sort": 180,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0d/2a/19/0d2a1913-c15b-2430-f849-f4c1fe0ebe7c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/nihongo3kyu.png"
     },
     {
       "id": "shobootsu6",
@@ -189,7 +189,7 @@
       "appStoreId": "6781278935",
       "androidPackage": "com.hajimeapplab.shobootsu6",
       "sort": 190,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/97/0c/5f970c75-ee04-eb45-b456-dfb001300dd3/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/shobootsu6.png"
     },
     {
       "id": "bizkaikei3kyu",
@@ -198,7 +198,7 @@
       "appStoreId": "6780249581",
       "androidPackage": "com.hajimeapplab.bizkaikei3kyu",
       "sort": 200,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/68/18/886818bd-b598-f722-397d-72afd2f7e9b5/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/bizkaikei3kyu.png"
     },
     {
       "id": "seiseiai",
@@ -207,7 +207,7 @@
       "appStoreId": "6780231436",
       "androidPackage": "com.hajimeapplab.seiseiaipassport",
       "sort": 210,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/94/9a/96949a13-69ec-1293-421c-19f13c1c3932/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/seiseiai.png"
     },
     {
       "id": "hakko",
@@ -216,7 +216,7 @@
       "appStoreId": "6779922874",
       "androidPackage": "com.hajimeapplab.hakkokentei",
       "sort": 220,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/4c/94/d84c94df-6f9a-71ed-0879-d0ec86c6698b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/hakko.png"
     },
     {
       "id": "itpassport",
@@ -225,7 +225,7 @@
       "appStoreId": "6776047396",
       "androidPackage": "com.hajimeapplab.itpassportquiz",
       "sort": 230,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/98/fd/8f98fd6a-c53c-d579-3dd1-025c9d375045/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/itpassport.png"
     },
     {
       "id": "bungaku",
@@ -234,7 +234,7 @@
       "appStoreId": "6463722741",
       "androidPackage": "com.gmail.trackandfield.sk.Quiz",
       "sort": 240,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/dc/2f/cadc2fe4-4ec5-eb06-30a1-14b22881a58a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/bungaku.png"
     },
     {
       "id": "sekaishinengo",
@@ -243,7 +243,7 @@
       "appStoreId": "6760818433",
       "androidPackage": "io.github.hajimeapp.worldhistorydates",
       "sort": 250,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/d9/c7/78d9c7cc-be59-a016-ac8b-04b030d11439/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/sekaishinengo.png"
     },
     {
       "id": "chokinmemo",
@@ -252,7 +252,7 @@
       "appStoreId": "6762539337",
       "androidPackage": "com.hajimeapplab.savingmemo",
       "sort": 260,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/d3/37/00d33757-9d7b-c88d-29ca-2e48c8a2f140/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/chokinmemo.png"
     },
     {
       "id": "shokuhi",
@@ -280,6 +280,182 @@
       "androidPackage": "io.github.hajimeapp.pomemo",
       "sort": 290,
       "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/1e/3d/0c1e3d33-ab55-9c26-d71a-371decd098f8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "aiganshiyoukanrishi2kyu",
+      "name": "愛玩動物飼養管理士2級 一問一答",
+      "description": "一問一答で愛玩動物飼養管理士2級対策",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.aiganshiyoukanrishi2kyu",
+      "sort": 300,
+      "iconUrl": "https://hajimeapplab.com/images/apps/aiganshiyoukanrishi2kyu.png"
+    },
+    {
+      "id": "bizkaikei1kyu",
+      "name": "ビジネス会計検定1級 一問一答",
+      "description": "一問一答でビジネス会計検定1級をマスター",
+      "series": "bizkaikei",
+      "seriesLabel": "ビジネス会計検定",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.bizkaikei1kyu",
+      "sort": 310,
+      "iconUrl": "https://hajimeapplab.com/images/apps/bizkaikei1kyu.png"
+    },
+    {
+      "id": "bizkaikei2kyu",
+      "name": "ビジネス会計検定2級 一問一答",
+      "description": "一問一答でビジネス会計検定2級対策",
+      "appStoreId": "6795399013",
+      "androidPackage": "com.hajimeapplab.bizkaikei2kyu",
+      "sort": 320,
+      "iconUrl": "https://hajimeapplab.com/images/apps/bizkaikei2kyu.png"
+    },
+    {
+      "id": "bizihou3kyu",
+      "name": "ビジネス実務法務検定3級 一問一答",
+      "description": "一問一答でビジネス実務法務検定3級をマスター",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.bizihou3kyu",
+      "sort": 330,
+      "iconUrl": "https://hajimeapplab.com/images/apps/bizihou3kyu.png"
+    },
+    {
+      "id": "hanbaishi1kyu",
+      "name": "リテールマーケティング(販売士)1級 一問一答",
+      "description": "一問一答でリテールマーケティング(販売士)1級対策",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.hanbaishi1kyu",
+      "sort": 340,
+      "iconUrl": "https://hajimeapplab.com/images/apps/hanbaishi1kyu.png"
+    },
+    {
+      "id": "hanbaishi3kyu",
+      "name": "リテールマーケティング(販売士)3級 一問一答",
+      "description": "一問一答でリテールマーケティング(販売士)3級対策",
+      "appStoreId": "6795398548",
+      "androidPackage": "com.hajimeapplab.hanbaishi3kyu",
+      "sort": 350,
+      "iconUrl": "https://hajimeapplab.com/images/apps/hanbaishi3kyu.png"
+    },
+    {
+      "id": "jokaku3kyu",
+      "name": "日本城郭検定3級 一問一答",
+      "description": "一問一答で日本城郭検定3級対策",
+      "appStoreId": "6795397929",
+      "androidPackage": "com.hajimeapplab.jokaku3kyu",
+      "sort": 360,
+      "iconUrl": "https://hajimeapplab.com/images/apps/jokaku3kyu.png"
+    },
+    {
+      "id": "mannerkentei3kyu",
+      "name": "マナー・プロトコール検定3級 一問一答",
+      "description": "一問一答でマナー・プロトコール検定3級対策",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.mannerkentei3kyu",
+      "sort": 370,
+      "iconUrl": "https://hajimeapplab.com/images/apps/mannerkentei3kyu.png"
+    },
+    {
+      "id": "mukikagaku",
+      "name": "無機化学 一問一答クイズ",
+      "description": "一問一答で無機化学をマスター",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.mukikagaku",
+      "sort": 380,
+      "iconUrl": "https://hajimeapplab.com/images/apps/mukikagaku.png"
+    },
+    {
+      "id": "nailist3kyu",
+      "name": "ネイリスト技能検定3級 一問一答",
+      "description": "一問一答でネイリスト技能検定3級をマスター",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.nailist3kyu",
+      "sort": 390,
+      "iconUrl": "https://hajimeapplab.com/images/apps/nailist3kyu.png"
+    },
+    {
+      "id": "rekikensekaishi1kyu",
+      "name": "歴史能力検定1級（世界史） 一問一答",
+      "description": "一問一答で歴史能力検定1級（世界史）対策",
+      "series": "rekiken",
+      "seriesLabel": "歴史能力検定",
+      "appStoreId": "6792391409",
+      "androidPackage": "com.hajimeapplab.rekikensekaishi1kyu",
+      "sort": 400,
+      "iconUrl": "https://hajimeapplab.com/images/apps/rekikensekaishi1kyu.png"
+    },
+    {
+      "id": "rekikensekaishi2kyu",
+      "name": "歴史能力検定2級（世界史） 一問一答",
+      "description": "一問一答で歴史能力検定2級（世界史）をマスター",
+      "series": "rekiken",
+      "seriesLabel": "歴史能力検定",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.rekikensekaishi2kyu",
+      "sort": 410,
+      "iconUrl": "https://hajimeapplab.com/images/apps/rekikensekaishi2kyu.png"
+    },
+    {
+      "id": "rekikensekaishi3kyu",
+      "name": "歴史能力検定3級（世界史） 一問一答",
+      "description": "一問一答で歴史能力検定3級（世界史）をマスター",
+      "series": "rekiken",
+      "seriesLabel": "歴史能力検定",
+      "appStoreId": "6797898926",
+      "androidPackage": "com.hajimeapplab.rekikensekaishi3kyu",
+      "sort": 420,
+      "iconUrl": "https://hajimeapplab.com/images/apps/rekikensekaishi3kyu.png"
+    },
+    {
+      "id": "rekikennihon2kyu",
+      "name": "歴史能力検定2級（日本史） 一問一答",
+      "description": "一問一答で歴史能力検定2級（日本史）対策",
+      "series": "rekiken",
+      "seriesLabel": "歴史能力検定",
+      "appStoreId": "6793736734",
+      "androidPackage": "com.hajimeapplab.rekikennihon2kyu",
+      "sort": 430,
+      "iconUrl": "https://hajimeapplab.com/images/apps/rekikennihon2kyu.png"
+    },
+    {
+      "id": "rekikennihon3kyu",
+      "name": "歴史能力検定3級（日本史） 一問一答",
+      "description": "一問一答で歴史能力検定3級（日本史）をマスター",
+      "series": "rekiken",
+      "seriesLabel": "歴史能力検定",
+      "appStoreId": "6797803688",
+      "androidPackage": "com.hajimeapplab.rekikennihon3kyu",
+      "sort": 440,
+      "iconUrl": "https://hajimeapplab.com/images/apps/rekikennihon3kyu.png"
+    },
+    {
+      "id": "shobokou4kyu",
+      "name": "消防設備士甲種4類 一問一答",
+      "description": "一問一答で消防設備士甲種4類をマスター",
+      "series": "shobo",
+      "seriesLabel": "消防設備士",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.shobokou4kyu",
+      "sort": 450,
+      "iconUrl": "https://hajimeapplab.com/images/apps/shobokou4kyu.png"
+    },
+    {
+      "id": "shokuseikatsu2kyu",
+      "name": "食生活アドバイザー2級 一問一答",
+      "description": "一問一答で食生活アドバイザー2級対策",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.shokuseikatsu2kyu",
+      "sort": 460,
+      "iconUrl": "https://hajimeapplab.com/images/apps/shokuseikatsu2kyu.png"
+    },
+    {
+      "id": "yakuzenkanpo",
+      "name": "薬膳漢方検定 一問一答",
+      "description": "一問一答で薬膳漢方検定対策",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.yakuzenkanpo",
+      "sort": 470,
+      "iconUrl": "https://hajimeapplab.com/images/apps/yakuzenkanpo.png"
     }
   ]
 }

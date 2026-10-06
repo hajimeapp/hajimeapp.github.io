@@ -332,6 +332,79 @@
       text-decoration: underline;
     }
 
+    /* ===== App Catalog（tools/build_app_catalog.mjs が生成する一覧） ===== */
+    .catalog-heading {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 56px 0 20px;
+    }
+
+    .catalog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
+    }
+
+    .catalog-card {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 16px;
+    }
+
+    .catalog-icon {
+      width: 64px;
+      height: 64px;
+      border-radius: 14px;
+      flex-shrink: 0;
+      object-fit: cover;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .catalog-icon--blank {
+      background: var(--border);
+    }
+
+    .catalog-info {
+      min-width: 0;
+    }
+
+    .catalog-name {
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1.4;
+      margin-bottom: 4px;
+    }
+
+    .catalog-desc {
+      font-size: 13px;
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+    }
+
+    .catalog-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .catalog-links a {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text);
+      text-decoration: none;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 4px 12px;
+    }
+
+    .catalog-links a:hover {
+      background: var(--bg);
+    }
+
     /* ===== Responsive ===== */
     @media (max-width: 640px) {
       .app-card-inner {
@@ -763,6 +836,325 @@
     </div>
 
     <!-- 今後のアプリはここに追加 -->
+
+    <!-- APP_CATALOG:BEGIN -->
+    <!-- このブロックは tools/build_app_catalog.mjs が cross_promo/apps.json から自動生成する。手で編集しない -->
+    <h3 class="catalog-heading">検定・学習クイズアプリ</h3>
+    <div class="catalog-grid">
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/wh1kyu.png" alt="世界遺産検定1級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">世界遺産検定1級 一問一答</h3>
+          <p class="catalog-desc">一問一答で世界遺産検定1級対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6774595591" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.worldheritagequiz1kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/whjun1kyu.png" alt="世界遺産検定準1級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">世界遺産検定準1級 一問一答</h3>
+          <p class="catalog-desc">一問一答で世界遺産検定準1級対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6782517074" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.worldheritagequizjun1kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/wh2kyu.png" alt="世界遺産検定2級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">世界遺産検定2級 一問一答</h3>
+          <p class="catalog-desc">一問一答で世界遺産検定2級対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6773798008" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.worldheritagequiz2kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/hisho1kyu.png" alt="秘書検定1級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">秘書検定1級 一問一答</h3>
+          <p class="catalog-desc">一問一答で秘書検定1級対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6779851697" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.hisho1kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/hisho2kyu.png" alt="秘書検定2級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">秘書検定2級 一問一答</h3>
+          <p class="catalog-desc">一問一答で秘書検定2級対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6779189503" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.hisho2kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/hisho3kyu.png" alt="秘書検定3級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">秘書検定3級 一問一答</h3>
+          <p class="catalog-desc">一問一答で秘書検定3級対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6778831052" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.hisho3kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/jokaku2kyu.png" alt="日本城郭検定2級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">日本城郭検定2級 一問一答</h3>
+          <p class="catalog-desc">一問一答で日本城郭検定2級対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6784968471" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.jokaku2kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/kyoryu.png" alt="恐竜学検定初級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">恐竜学検定初級 一問一答</h3>
+          <p class="catalog-desc">一問一答で恐竜学検定初級対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6784962687" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.kyoryugakushokyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/tenmon1kyu.png" alt="天文宇宙検定1級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">天文宇宙検定1級 一問一答</h3>
+          <p class="catalog-desc">一問一答で天文宇宙検定1級対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6784950185" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.tenmon1kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/peteiyo.png" alt="ペット栄養管理士 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">ペット栄養管理士 一問一答</h3>
+          <p class="catalog-desc">一問一答でペット栄養管理士試験対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6783182010" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.peteiyokanrishi&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/rekiken1kyu.png" alt="歴史能力検定1級(日本史) 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">歴史能力検定1級(日本史) 一問一答</h3>
+          <p class="catalog-desc">一問一答で歴検1級(日本史)対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6782520418" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.rekikennihon1kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/aroma2kyu.png" alt="アロマテラピー検定2級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">アロマテラピー検定2級 一問一答</h3>
+          <p class="catalog-desc">一問一答でアロマテラピー検定2級対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6781719186" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.aroma2kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/seika.png" alt="製菓衛生師 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">製菓衛生師 一問一答</h3>
+          <p class="catalog-desc">一問一答で製菓衛生師試験対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6781716945" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.seikaeiseishi&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/hanbaishi2kyu.png" alt="販売士2級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">販売士2級 一問一答</h3>
+          <p class="catalog-desc">一問一答でリテールマーケティング検定対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6781713997" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.hanbaishi2kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/kanken5kyu.png" alt="漢字検定5級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">漢字検定5級 一問一答</h3>
+          <p class="catalog-desc">一問一答で漢検5級対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6781323470" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.kanken5kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/nihongo3kyu.png" alt="日本語検定3級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">日本語検定3級 一問一答</h3>
+          <p class="catalog-desc">一問一答で日本語検定3級対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6781310179" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.nihongokentei3&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/shobootsu6.png" alt="消防設備士乙6類 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">消防設備士乙6類 一問一答</h3>
+          <p class="catalog-desc">一問一答で消防設備士乙種第6類対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6781278935" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.shobootsu6&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/bizkaikei3kyu.png" alt="ビジネス会計検定3級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">ビジネス会計検定3級 一問一答</h3>
+          <p class="catalog-desc">一問一答でビジネス会計検定3級対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6780249581" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.bizkaikei3kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/seiseiai.png" alt="生成AIパスポート 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">生成AIパスポート 一問一答</h3>
+          <p class="catalog-desc">一問一答で生成AIパスポート試験対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6780231436" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.seiseiaipassport&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/hakko.png" alt="発酵検定 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">発酵検定 一問一答</h3>
+          <p class="catalog-desc">一問一答で発酵検定対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6779922874" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.hakkokentei&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/itpassport.png" alt="ITパスポート 過去問 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">ITパスポート 過去問</h3>
+          <p class="catalog-desc">過去問でITパスポート試験対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6776047396" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.itpassportquiz&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/aiganshiyoukanrishi2kyu.png" alt="愛玩動物飼養管理士2級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">愛玩動物飼養管理士2級 一問一答</h3>
+          <p class="catalog-desc">一問一答で愛玩動物飼養管理士2級対策</p>
+          <div class="catalog-links"><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.aiganshiyoukanrishi2kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/bizkaikei1kyu.png" alt="ビジネス会計検定1級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">ビジネス会計検定1級 一問一答</h3>
+          <p class="catalog-desc">一問一答でビジネス会計検定1級をマスター</p>
+          <div class="catalog-links"><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.bizkaikei1kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/bizkaikei2kyu.png" alt="ビジネス会計検定2級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">ビジネス会計検定2級 一問一答</h3>
+          <p class="catalog-desc">一問一答でビジネス会計検定2級対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6795399013" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.bizkaikei2kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/bizihou3kyu.png" alt="ビジネス実務法務検定3級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">ビジネス実務法務検定3級 一問一答</h3>
+          <p class="catalog-desc">一問一答でビジネス実務法務検定3級をマスター</p>
+          <div class="catalog-links"><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.bizihou3kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/hanbaishi1kyu.png" alt="リテールマーケティング(販売士)1級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">リテールマーケティング(販売士)1級 一問一答</h3>
+          <p class="catalog-desc">一問一答でリテールマーケティング(販売士)1級対策</p>
+          <div class="catalog-links"><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.hanbaishi1kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/hanbaishi3kyu.png" alt="リテールマーケティング(販売士)3級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">リテールマーケティング(販売士)3級 一問一答</h3>
+          <p class="catalog-desc">一問一答でリテールマーケティング(販売士)3級対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6795398548" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.hanbaishi3kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/jokaku3kyu.png" alt="日本城郭検定3級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">日本城郭検定3級 一問一答</h3>
+          <p class="catalog-desc">一問一答で日本城郭検定3級対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6795397929" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.jokaku3kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/mannerkentei3kyu.png" alt="マナー・プロトコール検定3級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">マナー・プロトコール検定3級 一問一答</h3>
+          <p class="catalog-desc">一問一答でマナー・プロトコール検定3級対策</p>
+          <div class="catalog-links"><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.mannerkentei3kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/mukikagaku.png" alt="無機化学 一問一答クイズ アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">無機化学 一問一答クイズ</h3>
+          <p class="catalog-desc">一問一答で無機化学をマスター</p>
+          <div class="catalog-links"><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.mukikagaku&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/nailist3kyu.png" alt="ネイリスト技能検定3級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">ネイリスト技能検定3級 一問一答</h3>
+          <p class="catalog-desc">一問一答でネイリスト技能検定3級をマスター</p>
+          <div class="catalog-links"><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.nailist3kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/rekikensekaishi1kyu.png" alt="歴史能力検定1級（世界史） 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">歴史能力検定1級（世界史） 一問一答</h3>
+          <p class="catalog-desc">一問一答で歴史能力検定1級（世界史）対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6792391409" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.rekikensekaishi1kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/rekikensekaishi2kyu.png" alt="歴史能力検定2級（世界史） 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">歴史能力検定2級（世界史） 一問一答</h3>
+          <p class="catalog-desc">一問一答で歴史能力検定2級（世界史）をマスター</p>
+          <div class="catalog-links"><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.rekikensekaishi2kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/rekikensekaishi3kyu.png" alt="歴史能力検定3級（世界史） 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">歴史能力検定3級（世界史） 一問一答</h3>
+          <p class="catalog-desc">一問一答で歴史能力検定3級（世界史）をマスター</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6797898926" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.rekikensekaishi3kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/rekikennihon2kyu.png" alt="歴史能力検定2級（日本史） 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">歴史能力検定2級（日本史） 一問一答</h3>
+          <p class="catalog-desc">一問一答で歴史能力検定2級（日本史）対策</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6793736734" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.rekikennihon2kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/rekikennihon3kyu.png" alt="歴史能力検定3級（日本史） 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">歴史能力検定3級（日本史） 一問一答</h3>
+          <p class="catalog-desc">一問一答で歴史能力検定3級（日本史）をマスター</p>
+          <div class="catalog-links"><a href="https://apps.apple.com/jp/app/id6797803688" target="_blank" rel="noopener noreferrer">App Store</a><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.rekikennihon3kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/shobokou4kyu.png" alt="消防設備士甲種4類 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">消防設備士甲種4類 一問一答</h3>
+          <p class="catalog-desc">一問一答で消防設備士甲種4類をマスター</p>
+          <div class="catalog-links"><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.shobokou4kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/shokuseikatsu2kyu.png" alt="食生活アドバイザー2級 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">食生活アドバイザー2級 一問一答</h3>
+          <p class="catalog-desc">一問一答で食生活アドバイザー2級対策</p>
+          <div class="catalog-links"><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.shokuseikatsu2kyu&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+      <div class="catalog-card">
+        <img class="catalog-icon" src="https://hajimeapplab.com/images/apps/yakuzenkanpo.png" alt="薬膳漢方検定 一問一答 アイコン" loading="lazy">
+        <div class="catalog-info">
+          <h3 class="catalog-name">薬膳漢方検定 一問一答</h3>
+          <p class="catalog-desc">一問一答で薬膳漢方検定対策</p>
+          <div class="catalog-links"><a href="https://play.google.com/store/apps/details?id=com.hajimeapplab.yakuzenkanpo&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Play</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- APP_CATALOG:END -->
 
   </section>
 
