@@ -86,6 +86,8 @@ const card = (a) => {
 // 見出しを変えたいときはこの表の heading だけ直せばよい。
 const CATEGORIES = [
   { key: 'money', heading: 'お金の管理アプリ' },
+  { key: 'camera', heading: 'カメラ・映像アプリ' },
+  { key: 'game', heading: 'ゲーム' },
   { key: 'quiz', heading: '検定・学習クイズアプリ' },
 ];
 const unknown = [...new Set(apps.map((a) => a.category ?? 'quiz'))]

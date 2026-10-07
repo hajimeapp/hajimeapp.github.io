@@ -460,6 +460,26 @@
       "androidPackage": "com.hajimeapplab.yakuzenkanpo",
       "sort": 470,
       "iconUrl": "https://hajimeapplab.com/images/apps/yakuzenkanpo.png"
+    },
+    {
+      "id": "monochromefilm",
+      "name": "白黒映画風カメラ Monochrome Film",
+      "description": "モノクロ動画をフィルム調に録画",
+      "category": "camera",
+      "appStoreId": "6792492376",
+      "androidPackage": "com.hajimeapplab.monochromefilm",
+      "sort": 480,
+      "iconUrl": "https://hajimeapplab.com/images/apps/monochromefilm.png"
+    },
+    {
+      "id": "nekotsumi",
+      "name": "ねこ、積んじゃった。ネコ図鑑あつめ",
+      "description": "積んだネコが図鑑に集まる",
+      "category": "game",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.nekotsumi",
+      "sort": 490,
+      "iconUrl": "https://hajimeapplab.com/images/apps/nekotsumi.png"
     }
   ]
 }
