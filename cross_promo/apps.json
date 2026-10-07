@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "apps": [
     {
       "id": "wh1kyu",
@@ -252,7 +252,8 @@
       "appStoreId": "6762539337",
       "androidPackage": "com.hajimeapplab.savingmemo",
       "sort": 260,
-      "iconUrl": "https://hajimeapplab.com/images/apps/chokinmemo.png"
+      "iconUrl": "https://hajimeapplab.com/images/apps/chokinmemo.png",
+      "category": "money"
     },
     {
       "id": "shokuhi",
@@ -261,7 +262,8 @@
       "appStoreId": "6762207977",
       "androidPackage": "com.hajimeapplab.food.expense.management",
       "sort": 270,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/85/8f/d8858f94-6fc7-5940-bf7f-5442348fdf20/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/shokuhi.png",
+      "category": "money"
     },
     {
       "id": "oshikatsuchokin",
@@ -270,7 +272,8 @@
       "appStoreId": "6761586458",
       "androidPackage": "com.hajimeapplab.oshikatsu.savings",
       "sort": 280,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/9a/78/089a781c-994f-ab3f-5305-2e40f5e56494/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/oshikatsuchokin.png",
+      "category": "money"
     },
     {
       "id": "pomemo",
@@ -279,7 +282,8 @@
       "appStoreId": "6759794874",
       "androidPackage": "io.github.hajimeapp.pomemo",
       "sort": 290,
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/1e/3d/0c1e3d33-ab55-9c26-d71a-371decd098f8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+      "iconUrl": "https://hajimeapplab.com/images/apps/pomemo.png",
+      "category": "money"
     },
     {
       "id": "aiganshiyoukanrishi2kyu",

@@ -82,12 +82,29 @@ const card = (a) => {
       </div>`;
 };
 
+// カテゴリは apps.json の category で決める（未指定は quiz）。並び順と見出しはここで管理する。
+// 見出しを変えたいときはこの表の heading だけ直せばよい。
+const CATEGORIES = [
+  { key: 'money', heading: 'お金の管理アプリ' },
+  { key: 'quiz', heading: '検定・学習クイズアプリ' },
+];
+const unknown = [...new Set(apps.map((a) => a.category ?? 'quiz'))]
+  .filter((k) => !CATEGORIES.some((c) => c.key === k));
+if (unknown.length) {
+  console.warn(`WARN: 未知の category があるため一覧に出しません: ${unknown.join(', ')}（CATEGORIES に追加する）`);
+}
+const sections = CATEGORIES.map(({ key, heading }) => {
+  const items = apps.filter((a) => (a.category ?? 'quiz') === key);
+  if (!items.length) return '';
+  return `    <h3 class="catalog-heading">${heading}</h3>
+    <div class="catalog-grid">
+${items.map(card).join('\n')}
+    </div>`;
+}).filter(Boolean).join('\n');
+
 const block = `${BEGIN}
     <!-- このブロックは tools/build_app_catalog.mjs が cross_promo/apps.json から自動生成する。手で編集しない -->
-    <h3 class="catalog-heading">検定・学習クイズアプリ</h3>
-    <div class="catalog-grid">
-${apps.map(card).join('\n')}
-    </div>
+${sections}
     ${END}`;
 writeFileSync(htmlPath, html.slice(0, b) + block + html.slice(e + END.length));
 console.log(`index.html: アプリ一覧を ${apps.length}件で作り直しました（手書きカードのアプリは除外）`);
