@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-07",
+  "updated": "2026-10-18",
   "apps": [
     {
       "id": "wh1kyu",
@@ -292,7 +292,9 @@
       "appStoreId": "",
       "androidPackage": "com.hajimeapplab.aiganshiyoukanrishi2kyu",
       "sort": 300,
-      "iconUrl": "https://hajimeapplab.com/images/apps/aiganshiyoukanrishi2kyu.png"
+      "iconUrl": "https://hajimeapplab.com/images/apps/aiganshiyoukanrishi2kyu.png",
+      "series": "aigan",
+      "seriesLabel": "愛玩動物飼養管理士"
     },
     {
       "id": "bizkaikei1kyu",
@@ -450,7 +452,9 @@
       "appStoreId": "",
       "androidPackage": "com.hajimeapplab.shokuseikatsu2kyu",
       "sort": 460,
-      "iconUrl": "https://hajimeapplab.com/images/apps/shokuseikatsu2kyu.png"
+      "iconUrl": "https://hajimeapplab.com/images/apps/shokuseikatsu2kyu.png",
+      "series": "shokuseikatsu",
+      "seriesLabel": "食生活アドバイザー"
     },
     {
       "id": "yakuzenkanpo",
@@ -480,6 +484,75 @@
       "androidPackage": "com.hajimeapplab.nekotsumi",
       "sort": 490,
       "iconUrl": "https://hajimeapplab.com/images/apps/nekotsumi.png"
+    },
+    {
+      "id": "aiganshiyoukanrishi1kyu",
+      "name": "愛玩動物飼養管理士1級 一問一答",
+      "description": "一問一答で愛玩動物飼養管理士1級をマスター",
+      "series": "aigan",
+      "seriesLabel": "愛玩動物飼養管理士",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.aiganshiyoukanrishi1kyu",
+      "sort": 500,
+      "iconUrl": "https://hajimeapplab.com/images/apps/aiganshiyoukanrishi1kyu.png"
+    },
+    {
+      "id": "eikenjun2pluskyu",
+      "name": "英検®準2級プラス 英単語・熟語 一問一答",
+      "description": "英検準2級プラスの英単語・熟語を4択で暗記",
+      "series": "eiken",
+      "seriesLabel": "英検",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.eikenjun2pluskyu",
+      "sort": 510,
+      "iconUrl": "https://hajimeapplab.com/images/apps/eikenjun2pluskyu.png"
+    },
+    {
+      "id": "fukushijukankyo2kyu",
+      "name": "福祉住環境コーディネーター2級 一問一答",
+      "description": "一問一答で福祉住環境コーディネーター2級をマスター",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.fukushijukankyo2kyu",
+      "sort": 520,
+      "iconUrl": "https://hajimeapplab.com/images/apps/fukushijukankyo2kyu.png"
+    },
+    {
+      "id": "jinjakentei3kyu",
+      "name": "神社検定3級 一問一答",
+      "description": "一問一答で神社検定3級をマスター",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.jinjakentei3kyu",
+      "sort": 530,
+      "iconUrl": "https://hajimeapplab.com/images/apps/jinjakentei3kyu.png"
+    },
+    {
+      "id": "keshohinkentei2kyu",
+      "name": "日本化粧品検定2級 一問一答",
+      "description": "一問一答で日本化粧品検定2級をマスター",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.keshohinkentei2kyu",
+      "sort": 540,
+      "iconUrl": "https://hajimeapplab.com/images/apps/keshohinkentei2kyu.png"
+    },
+    {
+      "id": "nihonshukentei3kyu",
+      "name": "日本酒検定3級 一問一答",
+      "description": "一問一答で日本酒検定3級をマスター",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.nihonshukentei3kyu",
+      "sort": 550,
+      "iconUrl": "https://hajimeapplab.com/images/apps/nihonshukentei3kyu.png"
+    },
+    {
+      "id": "shokuseikatsu3kyu",
+      "name": "食生活アドバイザー3級 一問一答",
+      "description": "一問一答で食生活アドバイザー3級をマスター",
+      "series": "shokuseikatsu",
+      "seriesLabel": "食生活アドバイザー",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.shokuseikatsu3kyu",
+      "sort": 560,
+      "iconUrl": "https://hajimeapplab.com/images/apps/shokuseikatsu3kyu.png"
     }
   ]
 }
