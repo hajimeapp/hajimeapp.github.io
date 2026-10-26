@@ -581,17 +581,6 @@
       "androidPackage": "com.hajimeapplab.jinjakentei2kyu",
       "sort": 580,
       "iconUrl": "https://hajimeapplab.com/images/apps/jinjakentei2kyu.png"
-    },
-    {
-      "id": "kanken6kyu",
-      "name": "漢字検定6級 一問一答",
-      "description": "一問一答で漢字検定6級をマスター",
-      "series": "kanken",
-      "seriesLabel": "漢字検定",
-      "appStoreId": "",
-      "androidPackage": "com.hajimeapplab.kanken6kyu",
-      "sort": 590,
-      "iconUrl": "https://hajimeapplab.com/images/apps/kanken6kyu.png"
     }
   ]
 }
