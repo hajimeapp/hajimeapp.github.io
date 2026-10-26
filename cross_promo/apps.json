@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-18",
+  "updated": "2026-10-26",
   "apps": [
     {
       "id": "wh1kyu",
@@ -168,6 +168,8 @@
       "id": "kanken5kyu",
       "name": "漢字検定5級 一問一答",
       "description": "一問一答で漢検5級対策",
+      "series": "kanken",
+      "seriesLabel": "漢字検定",
       "appStoreId": "6781323470",
       "androidPackage": "com.hajimeapplab.kanken5kyu",
       "sort": 170,
@@ -511,6 +513,8 @@
       "id": "fukushijukankyo2kyu",
       "name": "福祉住環境コーディネーター2級 一問一答",
       "description": "一問一答で福祉住環境コーディネーター2級をマスター",
+      "series": "fukushi_jukankyo",
+      "seriesLabel": "福祉住環境コーディネーター",
       "appStoreId": "",
       "androidPackage": "com.hajimeapplab.fukushijukankyo2kyu",
       "sort": 520,
@@ -520,6 +524,8 @@
       "id": "jinjakentei3kyu",
       "name": "神社検定3級 一問一答",
       "description": "一問一答で神社検定3級をマスター",
+      "series": "jinja",
+      "seriesLabel": "神社検定",
       "appStoreId": "",
       "androidPackage": "com.hajimeapplab.jinjakentei3kyu",
       "sort": 530,
@@ -553,6 +559,39 @@
       "androidPackage": "com.hajimeapplab.shokuseikatsu3kyu",
       "sort": 560,
       "iconUrl": "https://hajimeapplab.com/images/apps/shokuseikatsu3kyu.png"
+    },
+    {
+      "id": "fukushijukankyo3kyu",
+      "name": "福祉住環境コーディネーター3級 一問一答",
+      "description": "一問一答で福祉住環境コーディネーター3級をマスター",
+      "series": "fukushi_jukankyo",
+      "seriesLabel": "福祉住環境コーディネーター",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.fukushijukankyo3kyu",
+      "sort": 570,
+      "iconUrl": "https://hajimeapplab.com/images/apps/fukushijukankyo3kyu.png"
+    },
+    {
+      "id": "jinjakentei2kyu",
+      "name": "神社検定2級 一問一答",
+      "description": "一問一答で神社検定2級をマスター",
+      "series": "jinja",
+      "seriesLabel": "神社検定",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.jinjakentei2kyu",
+      "sort": 580,
+      "iconUrl": "https://hajimeapplab.com/images/apps/jinjakentei2kyu.png"
+    },
+    {
+      "id": "kanken6kyu",
+      "name": "漢字検定6級 一問一答",
+      "description": "一問一答で漢字検定6級をマスター",
+      "series": "kanken",
+      "seriesLabel": "漢字検定",
+      "appStoreId": "",
+      "androidPackage": "com.hajimeapplab.kanken6kyu",
+      "sort": 590,
+      "iconUrl": "https://hajimeapplab.com/images/apps/kanken6kyu.png"
     }
   ]
 }
